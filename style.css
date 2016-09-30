@@ -1,0 +1,63 @@
+* {margin: 0; padding: 0;}
+body{
+    margin: 0;
+}
+#header {
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 100%;
+}
+#logo {
+    position: absolute;
+    float: left;
+}
+
+.header_logo {
+    height:45px;
+}
+.metro {
+    height: 30px;
+    vertical-align: middle;
+}
+#address {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+}
+#main {
+    width: 100%;
+    background-image: url(pictures/old_paper_texture_by_lex2flex-d5qxjw5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+.main_menu{
+    list-style: none;
+    background-size: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(127, 56, 3, .5);
+    margin-top: 0;
+    text-align: center;
+}
+.main_menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.main_menu a {
+    display: block;
+    padding: 8px 10px 8px;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+}
+/*.main_logo {*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -160px;*/
+    /*margin-left: -207.5px;*/
+    /*height: 320px;*/
+    /*width: 415px;*/
+}
