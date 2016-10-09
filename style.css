@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;}
+*{margin: 0; padding: 0;}
 body{
     margin: 0;
 }
@@ -10,10 +10,12 @@ body{
 #logo {
     position: absolute;
     float: left;
+    left: 10px;
+    top: 5px;
 }
 
 .header_logo {
-    height:45px;
+    height:90px;
 }
 .metro {
     height: 30px;
@@ -60,4 +62,44 @@ body{
     /*margin-left: -207.5px;*/
     /*height: 320px;*/
     /*width: 415px;*/
+/*}*/
+#selection {
+    margin-top: 170px;
+}
+
+#selection div {
+    font-size: 15pt;
+    display: inline-block;
+    width: 33.3%;
+}
+.big_picture {
+    width: 100%;
+}
+.hidden {
+    height: 200px;
+}
+.social_main {
+    width: 100px;
+    position: absolute;
+    top: 32px;
+    right: 50px;
+}
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: blanchedalmond;
+    background-size: 40px 40px;
+    border-radius: 8px;
+}
+.social-vk {
+    background-image: url(pictures/vk.jpg);
+}
+.social-insta {
+    background-image: url(pictures/instagram.jpg);
+}
+.first_picture_header {
+    text-align: center;
+
 }
