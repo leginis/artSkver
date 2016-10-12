@@ -1,6 +1,11 @@
 *{margin: 0; padding: 0;}
 body{
     margin: 0;
+    background-image: url(pictures/backgrounds/old_paper_texture_by_lex2flex-d5qxjw5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #header {
     background-color: blanchedalmond;
@@ -26,12 +31,10 @@ body{
     vertical-align: middle;
     text-align: center;
     line-height: 50px;
+    font-size: 25px;
 }
 #main {
     width: 100%;
-    background-image: url(pictures/old_paper_texture_by_lex2flex-d5qxjw5.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     height: 100%;
     padding-top: 50px;
 }
@@ -75,9 +78,7 @@ body{
 .big_picture {
     width: 100%;
 }
-.hidden {
-    height: 200px;
-}
+
 .social_main {
     width: 100px;
     position: absolute;
@@ -94,12 +95,131 @@ body{
     border-radius: 8px;
 }
 .social-vk {
-    background-image: url(pictures/vk.jpg);
+    background-image: url(pictures/logo/vk.jpg);
 }
 .social-insta {
-    background-image: url(pictures/instagram.jpg);
+    background-image: url(pictures/logo/instagram.jpg);
 }
-.first_picture_header {
+.picture_header {
     text-align: center;
+    padding-bottom: 25px;
+}
+#about_us {
+    //background-image: url("pictures/backgrounds/fire_paper.png");
+    //background-repeat: no-repeat;
+    //background-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin-bottom: 2%;
+}
+.russian_text {
+    margin-top: 3%;
+}
 
+.nastolki {
+    float: left;
+    width: 40%;
+    border-radius: 90px;
+    padding: 0 50px 0 50px;
+}
+.r_text {
+    display: block;
+    float: left;
+    text-align: left;
+    //font-size: 140%;
+}
+
+.uiut {
+    float: right;
+    clear: left;
+    width: 35%;
+    border-radius: 90px;
+    padding: 0 50px 0 50px;
+}
+.e_text {
+    display: block;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+}
+p {
+    font-size: 140%;
+    line-height: 33px;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#renta {
+    margin-top: 10%;
+}
+.two_columns,
+.rent_title {
+    margin-top: 3%;
+    padding: 0 3% 0 3%;
+}
+.two_columns_left {
+    display: inline-block;
+    padding-right: 0;
+    width: 41%;
+
+}
+.two_columns_right {
+    display: inline-block;
+    vertical-align: top;
+}
+.top_rent_space {
+    text-align: center;
+    margin-top: 5%;
+}
+span {
+    white-space: nowrap;
+}
+.bold {
+    font-size: larger;
+    font-weight: bold;
+}
+.three_areas {
+    text-align: center;
+    margin-top: 5%;
+}
+.zaly {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.properties {
+    width: 48%;
+    padding-left: 23px;
+}
+.underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.sprites {
+    text-align: center;
+}
+.sprites>div {
+    padding-top: 20px;
+    vertical-align: top;
+    width: 160px;
+    display: inline-block;
+}
+.sprites>div>img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.sprites>div>p {
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
 }

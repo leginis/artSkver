@@ -8,10 +8,10 @@
 <body>
         <div id="header">
             <div id="logo">
-                <img src="pictures/logo.png" class = 'header_logo'>
+                <img src="pictures/logo/logo.png" class = 'header_logo'>
             </div>
             <div id="address">
-                <img src="pictures/metro.svg.png" class="metro">
+                <img src="pictures/logo/metro.svg.png" class="metro">
                  Кропоткинская, Лебяжий пер. 8/4 стр.1
             </div>
         </div>
@@ -21,41 +21,327 @@
 
             <ul class="main_menu">
 
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Аренда</a></li>
+                <li><a href="#address">Главная</a></li>
+                <li><a href="#about_us">О нас</a></li>
+                <li><a href="#renta">Аренда</a></li>
                 <li><a href="#">Галерея</a></li>
                 <li><a href="#">Команда</a></li>
                 <li><a href="#">Контакты</a></li>
 
             </ul>
 
-            <!--<img src="pictures/logo.png" class="main_logo">-->
 
             <div id="selection"><!--
              --><div class="kom">
-                    <h1 class="first_picture_header">Комфорт</h1>
-                    <img src="pictures/komfort.jpg" class="big_picture">
+                    <h1 class="picture_header">Комфорт</h1>
+                    <img src="pictures/komfort/komfort.jpg" class="big_picture">
                 </div><!--
              --><div class="tv">
-                    <h1 class="first_picture_header">Творчество</h1>
-                    <img src="pictures/tvorchestvo.jpg" class="big_picture">
+                    <h1 class="picture_header">Творчество</h1>
+                    <img src="pictures/komfort/tvorchestvo.jpg" class="big_picture">
                 </div><!--
              --><div class="ig">
-                    <h1 class="first_picture_header">Игра</h1>
-                    <img src="pictures/igra.jpg" class="big_picture">
+                    <h1 class="picture_header">Игра</h1>
+                    <img src="pictures/komfort/igra.jpg" class="big_picture">
                 </div>
 
             </div>
-            <div class="hidden">
-            </div>
 
             <div class="social_main">
-            <a href="https://vk.com/art_skver" class="social social-vk"></a>
-            <a href="http://instagram.com/art_skver" class="social social-insta"></a>
+            <a href="https://vk.com/art_skver" target="_blank" class="social social-vk"></a>
+            <a href="http://instagram.com/art_skver" target="_blank" class="social social-insta"></a>
             </div>
         </div>
 
-
+        <div id="about_us" class="clearfix">
+            <h1 class="about">О НАС</h1>
+            <div class="russian_text">
+                <img src="pictures/about/nastolki.jpg" class="nastolki">
+                <p class="r_text">
+                    "Самое уютное антикафе в Москве"<br>
+                    50 различных настольных игр<br>
+                    Больше тысячи партий в настольный теннис<br>
+                    Полсотни подаренных часов по акции "Спой на сцене"<br>
+                    Больше 20 проведенных концертов<br>
+                    Сотни проведенных дней рождений различных форматов<br>
+                    Постоянно обновляющаяся библиотека, предлагающая<br>
+                    всегда самые популярные и интересные книги
+                </p>
+            </div>
+            <div class="english_text">
+                <img src="pictures/about/uiut.jpg" class="uiut">
+                <p class="e_text">
+                    "The most comfortable cafe in Moscow" <br>
+                    50 different board games <br>
+                    More than a thousand rounds of table tennis played <br>
+                    Fifty hours donated for action "Sing on stage" <br>
+                    More than 20 concerts held <br>
+                    Hundreds of birthday parties held<br>
+                    Constantly updated library offering <br>
+                    always the most popular and interesting books</p>
+            </div>
+            </div>
+        </div>
+        <div id="renta">
+            <h1>Аренда</h1>
+            <div id="rent_first">
+                <div class="two_columns two_columns_left">
+                    <h2>Бронь столика</h2>
+                    <p class="rent_table_text">
+                        В нашем уютном антикафе Вы можете забронировать столик.<br>
+                        Для этого просто позвоните по телефону <span>8 (915) 495 04 70</span>
+                    </p>
+                </div>
+                <div class="two_columns two_columns_right">
+                    <h2>Бронь игровой приставки</h2>
+                    <p class="rent_console_text">
+                        В нашем антикафе есть x-box, но мы советуем
+                        заранее забронировать его.<br>
+                        Для этого просто позвоните по телефону <span>8 (915) 495 04 70</span>
+                    </p>
+                </div>
+            </div>
+            <div class="rent_title">
+                <h2 class="top_rent_space">Аренда зала</h2>
+                <p>
+                    Если Вы хотите провести незабываемое мероприятие мероприятие
+                    в Арт-Сквере, Вы можете арендовать у нас зал. Для этого необходимо
+                    пройти всего 3 шага!
+                </p>
+                <ol>
+                    <li><p>Определиться с датой, временем и форматом мероприятия</p></li>
+                    <li><p>Выбрать зал</p></li>
+                    <li>
+                        <p>
+                        Связаться с нашим администратором по телефону:
+                            <span>8 (915) 495 04 70</span>
+                        </p>
+                    </li>
+                </ol>
+                <p class="bold">Организуй лучшее событие за 3 действия!</p>
+                <div class="zal">
+                    <h2 class="three_areas">Светлый зал</h2>
+                    <img src="pictures/zaly/light.jpg" class="zaly">
+                    <div>
+                        <div class="two_columns">
+                            <div class="two_columns_left properties">
+                                <p class="underline">Характеристики</p>
+                                <ul>
+                                    <li><p>Площадь - 60 кв.м.</li>
+                                    <li><p>Высота потолка 2,5 м.</li>
+                                    <li><p>Сцена</li>
+                                    <li><p>Вместительность 60 чел. (посадочных мест - 30)</li>
+                                </ul>
+                                <p class="underline">Стоимость аренды</p>
+                                <p>C 10:00 до 17:00 - 1500 р./час<br>
+                                    C 17:00 до 00:00 - 2500 р./час<br>
+                                    C 00:00 до 10:00 - 2500 р./час
+                                </p>
+                            </div>
+                            <div class="two_columns_right properties">
+                                <p class="underline">Зал идеально подходит для мероприятий:</p>
+                                <ul>
+                                    <li><p>Бизнес-тренинг</p></li>
+                                    <li><p>Детский день рождения</p></li>
+                                    <li><p>Выступление музыкальной группы</p></li>
+                                    <li><p>День рождения с дискотекой</p></li>
+                                    <li><p>Презентация проекта</p></li>
+                                    <li><p>Занятия танцами, йогой и др.</p></li>
+                                    <li><p>Кинопростр</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sprites">
+                            <h3 class="three_areas">В стоимость входят</h3>
+                            <div>
+                                <img src="pictures/sprites/nast.png">
+                                <p>настольные игры</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/zvuk.png">
+                                <p>звуковое оборудование</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/micro.png">
+                                <p>микрофон</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/muzik.png">
+                                <p>музыкальные инструменты</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/tennis.png">
+                                <p>настольный теннис</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/eda.png">
+                                <p>еда с собой</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/proektor.png">
+                                <p>проектор</p>
+                            </div>
+                        </div>
+                        <div class="sprites">
+                            <h3 class="three_areas">Отдельно оплачиваются</h3>
+                            <div>
+                                <img src="pictures/sprites/keitering.png">
+                                <p>кейтеринг</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/kanz.png">
+                                <p>канцелярские товары</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/uborka.png">
+                                <p>уборка помещения</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/alkogol.png">
+                                <p>алкголь с собой</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/photo.png">
+                                <p>фото и видеосъемка</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/video.png">
+                                <p>видеоигры</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/coffee.png">
+                                <p>кофе-брейки</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/oformlenie.png">
+                                <p>оформление и шоу-программы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="zal">
+                    <h2 class="three_areas">Кофейный зал</h2>
+                    <img src="pictures/zaly/main.jpg" class="zaly">
+                    <div>
+                        <div class="two_columns">
+                            <div class="two_columns_left properties">
+                                <p class="underline">Характеристики</p>
+                                <ul>
+                                    <li><p>Площадь - 70 кв.м.</p></li>
+                                    <li><p>Высота потолка 2,5 м.</p></li>
+                                    <li><p>Сцена</p></li>
+                                    <li><p>Вместительность 50 чел. (посадочных мест - 40)</p></li>
+                                </ul>
+                                <p class="underline">Стоимость аренды</p>
+                                <p>C 23:00 до 10:00 - 2500 р./час<br>
+                                    * Аренда в дневные часы обсуждается отдельно
+                                </p>
+                            </div>
+                            <div class="two_columns_right properties">
+                                <p class="underline">Зал идеально подходит для мероприятий:</p>
+                                <ul>
+                                    <li><p>День рождения</p></li>
+                                    <li><p>Детский день рождения</p></li>
+                                    <li><p>Стендап шоу</p></li>
+                                    <li><p>Корпоратив фирмы</p></li>
+                                    <li><p>Танцевальная вечеринка</p></li>
+                                    <li><p>Тематическая вечеринка</p></li>
+                                    <li><p>Бизнес встречп</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sprites">
+                            <h3 class="three_areas">В стоимость входят</h3>
+                            <div>
+                                <img src="pictures/sprites/nast.png">
+                                <p>настольные игры</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/video.png">
+                                <p>видеоигры</p>
+                            </div>
+                            <div>
+                                <img src="#">
+                                <p>фоновая музыка</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/muzik.png">
+                                <p>музыкальные инструменты</p>
+                            </div>
+                            <div>
+                                <img src="#">
+                                <p>барная стойка</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/eda.png">
+                                <p>еда с собой</p>
+                            </div>
+                        </div>
+                        <div class="sprites">
+                            <h3 class="three_areas">Отдельно оплачиваются</h3>
+                            <div>
+                                <img src="pictures/sprites/keitering.png">
+                                <p>кейтеринг</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/kanz.png">
+                                <p>канцелярские товары</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/uborka.png">
+                                <p>уборка помещения</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/alkogol.png">
+                                <p>алкголь с собой</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/photo.png">
+                                <p>фото и видеосъемка</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/zvuk.png">
+                                <p>музыкальное оборудование</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/coffee.png">
+                                <p>кофе-брейки</p>
+                            </div>
+                            <div>
+                                <img src="pictures/sprites/oformlenie.png">
+                                <p>оформление и шоу-программы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="zal">
+                    <h2 class="three_areas">Комната "Пчелаут"</h2>
+                    <img src="pictures/zaly/bee.jpg" class="zaly">
+                    <div>
+                        <div class="two_columns">
+                            <div class="two_columns_left properties">
+                                <p class="underline">Характеристики</p>
+                                <ul>
+                                    <li><p>Площадь - 12 кв.м.</p></li>
+                                    <li><p>Высота потолка 2 м.</p></li>
+                                    <li><p>Вместительность 7 чел.</p></li>
+                                </ul>
+                                <p class="underline">Стоимость аренды<p>
+                                <p>По тарифам антикафе  - 2 руб./мин с человека</p>
+                            </div>
+                            <div class="two_columns_right properties">
+                                <p class="underline">Зал идеально подходит для мероприятий:</p>
+                                <ul>
+                                    <li><p>День рождения до 7 человек</p></li>
+                                    <li><p>Индивидуальные тренинги</p></li>
+                                    <li><p>Индтивидуальные образовательные занятия</p></li>
+                                    <li><p>Посиделки с настольными играми</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
-</html
+</html>
